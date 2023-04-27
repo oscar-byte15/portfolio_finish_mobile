@@ -285,6 +285,12 @@ body {
   margin-right: 2rem;
 }
 
+.works__card__topics li{
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 7.6rem;
+}
+
 .works__card__topics {
   display: flex;
   flex-wrap: wrap;
@@ -636,6 +642,13 @@ body {
     max-width: 1104px;
     column-gap: 46px;
     padding: 1.5rem;
+  }
+
+  .works__card__topics__text{
+    list-style-type: none;
+   display: inline;
+   padding-right: 15px;
+   margin-right: 10px;
   }
 
   .works__card__text {
