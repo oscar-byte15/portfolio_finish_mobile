@@ -285,6 +285,12 @@ body {
   margin-right: 2rem;
 }
 
+.works__card__topics li {
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 7.6rem;
+}
+
 .works__card__topics {
   display: flex;
   flex-wrap: wrap;
@@ -638,6 +644,13 @@ body {
     padding: 1.5rem;
   }
 
+  .works__card__topics__text {
+    list-style-type: none;
+    display: inline;
+    padding-right: 15px;
+    margin-right: 10px;
+  }
+
   .works__card__text {
     padding: 1rem;
   }
@@ -681,8 +694,6 @@ body {
   .about__tools {
     flex-basis: 25rem;
   }
-
-  
 
   .modal {
     width: 70%;
@@ -760,8 +771,6 @@ body {
   .about__tools {
     flex-basis: 38rem;
   }
-
- 
 
   .modal {
     width: 60%;
