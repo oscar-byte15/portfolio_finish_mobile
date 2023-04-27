@@ -285,7 +285,7 @@ body {
   margin-right: 2rem;
 }
 
-.works__card__topics li{
+.works__card__topics li {
   flex-direction: column;
   align-items: flex-start;
   flex-basis: 7.6rem;
@@ -644,11 +644,11 @@ body {
     padding: 1.5rem;
   }
 
-  .works__card__topics__text{
+  .works__card__topics__text {
     list-style-type: none;
-   display: inline;
-   padding-right: 15px;
-   margin-right: 10px;
+    display: inline;
+    padding-right: 15px;
+    margin-right: 10px;
   }
 
   .works__card__text {
